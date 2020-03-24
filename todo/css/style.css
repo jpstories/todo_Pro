@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgb(23, 121, 86);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row;
+}
+
+.task{
+    width: 300px;
+    height: 400px;
+    background: rgb(238, 238, 238);
+    border-radius: 5px;
+    color: rgb(37, 37, 37);
+    font-weight: 700;
+    position: relative;
+    margin: 20px;
+    box-shadow: 0 1px 1px 1px rgb(129, 129, 129);
+}
+
+.task__close{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: 0.1s;
+}
+
+.task__close:hover{
+    background: rgb(48, 48, 48);
+    color: rgb(211, 211, 211);
+}
+
+.task__status{
+    position: absolute;
+    bottom: -10px;
+    right: calc(50% - 80px);
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(5, 151, 61);
+    color: rgb(248, 248, 248);
+    box-shadow: 0 0 1px 1px rgb(33, 100, 13);
+    border-radius: 10px;
+}
+
+
+.input__background{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user__login{
+    width: 180px;
+    height: 120px;
+    box-shadow: 0 0 1px 1px rgb(59, 59, 59);
+    margin: 15px;
+    display: flex;
+    flex-flow: column;
+    background: rgb(78, 78, 78);
+
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    padding: 3px;
+    color: rgb(248, 248, 248);
+}
+
+.user__login input{
+    width: 140px;
+    height: 25px;
+}
+
+.user__login button{
+    width: 100%;
+    border: 1px solid purple;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+
+::-webkit-scrollbar{ width: 4px;  /* 1 - вертикальный скроллбар */}
+::-webkit-scrollbar:horizontal{ height: 4px; /* 1 - горизонтальный скроллбар */}
+::-webkit-scrollbar-button {display: none; /* 2 - кнопка */}
+::-webkit-scrollbar-track {background: rgb(112, 112, 112);/* 3 - трек */}
+::-webkit-scrollbar-track-piece { background: rgb(218, 218, 218); /* 4 – видимая часть трека */ }
+::-webkit-scrollbar-thumb {background: #747474; border-radius: 25px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); /* 5 - ползунок */}
