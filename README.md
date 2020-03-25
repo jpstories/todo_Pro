@@ -1,2 +1,3 @@
-# To do [Pro] (ver 0.1)
-![545345](https://user-images.githubusercontent.com/41709736/77434797-20bc0c80-6e2d-11ea-9a53-09148fe3e53e.png)
+# To do [Pro] (ver 1.0)
+![tasker](https://user-images.githubusercontent.com/41709736/77492105-63143680-6e8b-11ea-9675-9dad343365e7.png)
+
